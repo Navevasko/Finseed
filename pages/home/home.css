@@ -39,3 +39,54 @@ nav {
 
   font-size: 1.5rem;
 }
+
+.container {
+  width: 100%;
+  height: 1000px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+#presentation {
+  width: 75rem;
+  height: 40rem;
+
+  display: flex;
+  flex-direction: row;
+}
+
+#presentation img {
+  width: 48rem;
+  height: 38rem;
+}
+
+#presentation-text h1 {
+  width: 67rem;
+
+  font-size: 8rem;
+
+  margin-bottom: 1.5rem;
+}
+#presentation-text h2 {
+  width: 35rem;
+  
+  font-size: 1.8rem;
+  font-weight: 700;
+
+  margin-bottom: .5rem;
+}
+#presentation-text p {
+  width: 40rem;
+  
+  font-size: 1.08194rem;
+  font-weight: 300;
+}
+#presentation-text img {
+  width: 30rem;
+  height: 30rem;
+
+  position: absolute;
+  top: 23rem;
+  left: 40rem;
+}
