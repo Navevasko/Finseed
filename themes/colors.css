@@ -1,0 +1,14 @@
+:root {
+  --primary: #42976F;
+  --primary-dark: #33805B;
+
+  --secondary: #EFE8D7;
+  --secondary-dark: #B7AA87;
+
+  --text: #ECE4B7;
+  --text-dark: #1E1E1E;
+  
+  --logo: #28432F;
+
+  --gradient: linear-gradient(120deg, rgba(66,151,111,1) 0%, rgba(51,128,91,1) 100%);
+}
