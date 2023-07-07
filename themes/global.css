@@ -30,7 +30,7 @@ a, button {
 button {
   border-style: solid;
   border-color: var(--text);
-  border-width: 1px;
+  border-width: 1.5px;
 }
 
 footer {
