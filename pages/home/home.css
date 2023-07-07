@@ -1,22 +1,22 @@
 @import url(../../themes/colors.css);
 
 body {
-  background: var(--gradient)
+  background: var(--gradient);
+  overflow-x: hidden;
 }
 
 nav {
   width: 100%;
-  height: 6rem;
 
-  padding: 1.3rem 2.5rem;
+  padding: 1.5em 2.5em;
 
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.header-links {
-  width: 80%;  
+#header-links {
+  width: 50em;  
 
   display: flex;
   flex-direction: row;
@@ -24,62 +24,61 @@ nav {
   align-items: center;
 }
 
-.header-links a {
+#header-links a {
   font-size: 1.5rem;
   font-weight: 300;
   line-height: normal;
-  
 }
 
-.header-links button {
-  width: 10rem;
-  height: 3.5rem;
+#header-links button {
+  width: 8em;
+  height: 2.5em;
 
   background: var(--gradient);
 
   font-size: 1.5rem;
 }
 
-.container {
-  width: 100%;
-  height: 1000px;
-
-  display: flex;
-  flex-direction: column;
-}
-
 #presentation {
-  width: 75rem;
-  height: 40rem;
-
+  height: 42em;
   display: flex;
-  flex-direction: row;
+
+  padding-left: 2.5em;
+
+  gap: 4em;
 }
 
 #presentation img {
-  width: 48rem;
-  height: 38rem;
+  padding-left: 6rem;
+  width: 47em;
+  height: 40em;
+}
+
+#presentation-text {
+  display: grid;
+  max-height: 36em;
 }
 
 #presentation-text h1 {
-  width: 67rem;
+  grid-area: 1 / 1 / 2 / 3;
+  width: 8em;
 
   font-size: 8rem;
-
-  margin-bottom: 1.5rem;
 }
 #presentation-text h2 {
-  width: 35rem;
+  grid-area: 2 / 1 / 3 / 2;
+  width: 20em;
   
   font-size: 1.8rem;
   font-weight: 700;
-
-  margin-bottom: .5rem;
 }
 #presentation-text p {
-  width: 40rem;
-  
-  font-size: 1.08194rem;
+  grid-area: 3 / 1 / 3 / 2;
+  width: 35em;
+  height: auto;
+
+
+  font-size: 1.2rem;
   font-weight: 300;
 }
 #presentation-text img {
