@@ -82,12 +82,13 @@ nav {
   font-weight: 300;
 }
 #presentation-text img {
-  width: 30rem;
-  height: 30rem;
+  grid-area: 1 / 2 / 3 / 3; 
+  width: 40rem;
+  height: 35rem;
 
   position: absolute;
-  top: 23rem;
-  left: 40rem;
+  top: 14em;
+  left: 36em;
 }
 
 #benefits {
@@ -129,6 +130,8 @@ nav {
   align-items: flex-start;
 
   transition: ease-in-out .5s;
+
+  
 }
 
 .benefit-card:hover {
